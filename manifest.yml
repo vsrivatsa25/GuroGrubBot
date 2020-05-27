@@ -1,0 +1,7 @@
+---
+applications:
+ - name: GuroBotonIBM
+   command: python hello.py
+   random-route: True
+   memory: 128M
+   health-check-type: process
